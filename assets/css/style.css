@@ -1,0 +1,31 @@
+.hider {
+	display: none;
+}
+.login-warn {
+	width: 100%;
+	color: red;
+	text-align: center;
+}
+.custom-data-table td {
+	vertical-align: middle !important;
+}
+.custom-treeview li a {
+	padding-left: 25px !important;
+}
+.overlay-text {
+	color: white;
+	font-size: 1.25em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.upload-rule {
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 0.75em;
+}
+.upload-rule div {
+	float: left;
+	padding-right: 1.25em;
+}
