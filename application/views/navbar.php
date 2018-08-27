@@ -9,7 +9,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="<?php echo base_url() . 'index.php/';?>profile">
+				<a href="<?php echo base_url() . 'index.php/';?>outpatient">
 					<i class="fa fa-user"></i>
 					<span>Daftar Rawat Jalan</span>
 				</a>
@@ -18,12 +18,6 @@
 				<a href="<?php echo base_url() . 'index.php/';?>patient">
 					<i class="fa fa-user"></i>
 					<span>Tambah Pasien</span>
-				</a>
-			</li>
-			<li>
-				<a href="<?php echo base_url() . 'index.php/';?>document">
-					<i class="fa fa-files-o"></i>
-					<span>Dokumen</span>
 				</a>
 			</li>
 		</ul>

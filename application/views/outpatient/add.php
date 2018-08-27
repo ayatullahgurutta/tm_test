@@ -8,6 +8,21 @@
 	<div class="row">
 		<form class="form-horizontal" id="patient_form" role="form" action="add_process" method="post" enctype="multipart/form-data">
 			<div class="col-xs-6">
+				<div class="box box-success">
+					<div class="box-body">
+						<div class="form-group">
+							<label class="col-sm-4 control-label">Cari Pasien</label>
+							<div class="col-sm-8">
+								<input class="form-control" name="cari_pasien" id="cari_pasien">
+								<input type="hidden" class="form-control" name="rawat_pasien" id="rawat_pasien">
+							</div>
+						</div>
+						<table id="patient_list">
+						</table>
+					</div>
+				</div>
+				<div class="box box-success">
+				</div>
 			</div>
 			<div class="col-xs-6">
 				<div class="box box-success">

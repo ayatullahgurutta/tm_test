@@ -28,7 +28,7 @@
 			$res = $this->manage_model->add_id('pasien', $data);
 			$res = $this->manage_model->update('pasien', array('pasien_id' => $res), array('pasien_nrm' => sprintf("%06d", $res)));
 			// print_r($this->input->post());
-			// redirect('patient/record');
+			redirect('medic_record');
 		}
 
 	}

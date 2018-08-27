@@ -243,6 +243,15 @@
 			}
 		}
 
+		function search_multi($query) {
+			for ($i = 0; $i < count($query); $i++) {
+				if ($i == 0)
+					$this->db->like($query[$i]['column'], $query[$i]['value']);
+				else
+					$this->db->or_like($query[$i]['column'], $query[$i]['value']);
+			}
+		}
+
 		function count($table, $cond) {
 			$this->db->where($cond);
 			return $this->db->count_all_results($table);
